@@ -23,7 +23,8 @@
   <section id="title">
     <div class="container-fluid">
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <!-- had to put the styling here instead of css file. does not work in css file. -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="padding-left: 0px;">
       <a class="navbar-brand" href="#">tindog</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,13 +52,13 @@
     <div class="row">
     <div class="col-lg-6 text-white"> <!-- 12 is always a default so you dont need to specifiy it-->
       <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button" class = "btn btn-dark btn-lg"> <i class="fab fa-apple"></i> Download</button>
+      <button type="button" class = "btn btn-dark btn-lg download-button"> <i class="fab fa-apple"></i> Download</button>
         <!--Could change i to a span tag. i is just there to be called by another file. -->
-      <button type="button" class="btn btn-outline-light btn-lg"> <i class="fab fa-google-play"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"> <i class="fab fa-google-play"></i> Download</button>
     </div>
 
-    <div class="col-lg-6">
-      <img src="images/iphone6.png" alt="iphone-mockup">
+    <div class="col-lg-6 ">
+      <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
     </div>
     </div>
     </div>
