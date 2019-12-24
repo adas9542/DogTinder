@@ -25,7 +25,7 @@
     <!-- Nav Bar -->
     <!-- had to put the styling here instead of css file. does not work in css file. -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="padding-left: 0px;">
-      <a class="navbar-brand" href="#">tindog</a>
+      <a class="navbar-brand" href="#"> <i class="fas fa-fire"></i>  tindog</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -50,7 +50,7 @@
     <!-- Title -->
     <div class="row">
     <div class="col-lg-6 text-white"> <!-- 12 is always a default so you dont need to specifiy it-->
-      <h1>Meet new and interesting dogs nearby.</h1>
+      <h1>Find a catch here. No catfishes allowed.</h1>
       <!--Could change i to a span tag. i is just there to be called by another file. -->
 
       <button type="button" class="btn btn-outline-light btn-lg download-button"> <i class="fab fa-google-play"></i> Download</button>
@@ -73,19 +73,19 @@
 
     <div class="col-lg-4 feature-box">
       <i class="icon fas fa-check-circle"></i>
-      <h3> Easy to use </h3>
+      <h3> Simple </h3>
       <p>Swipe with your finger or your dog's paw. </p>
     </div>
 
     <div class="col-lg-4 feature-box">
       <i class="icon fas fa-bullseye"></i>
-      <h3>  Elite Clientele </h3>
+      <h3>  Elite </h3>
       <p>We have all the dogs your dog is looking for.</p>
     </div>
 
     <div class="col-lg-4 feature-box">
       <i class="icon far fa-heart"></i>
-      <h3> Guaranteed to work </h3>
+      <h3> 100% Guarantee </h3>
       <p>Find your dog's love or get a free supply of dog food.</p>
     </div>
 
@@ -98,13 +98,34 @@
 
   <section id="testimonials" class="text-white">
 
-    <h2>I don't mark my territory alone anymore. I've found the hottest Chihuahua on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile" class="pic_testimonial">
-    <em>Baxter, New York</em>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
 
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h2>I don't mark my territory alone anymore. I've found the hottest Chihuahua on TinDog. Woof.</h2>
+          <img src="images/shiba.jpg" alt="dog-profile" class="pic_testimonial">
+          <em>Joy, New York</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but after they found someone through TinDog I've been so lonely.</h2>
+          <img src="images/lady-img.jpg" alt="lady-profile" class="pic_testimonial testimonial-image">
+          <em>Beverly, Illinois</em>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" data-target="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" data-target="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
 
   </section>
 
