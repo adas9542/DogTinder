@@ -20,8 +20,8 @@ h1{
 
 }
 
-<!-- has its own padding from bootstrap-->
-<!-- higher level divs. your css should go from more general to more specific -->
+/* has its own padding from bootstrap-->
+<!-- higher level divs. your css should go from more general to more specific */
 .navbar{
     padding-bottom: 4.5rem;
 
@@ -57,11 +57,11 @@ h1{
 
 .feature-box{
     text-align: center;
-    padding: 6%;
+    padding: 5%;
 }
 
 #features{
-    padding: 7% 15%;
+    padding: 7% 10%;
 }
 
 h3{
@@ -83,3 +83,42 @@ p{
 .icon:hover{
     color:#ff4c68;
 }
+
+/*-- Testimonials */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background: #ff4c68;
+
+}
+
+h2{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+#press{
+    padding: 5% 15% 8.5%;
+    text-align: center;
+    background: #ff4c68;
+}
+
+.pic_testimonial{
+    width: 13%;
+    border-radius: 100%;
+    margin: 1px 10px;
+}
+
+.news_logo{
+    width: 15%;
+    margin: 1px 20px 60px;
+}
+
+#pricing{
+    padding: 7% 15%;
+}
+
