@@ -123,8 +123,17 @@ h2{
 }
 
 #pricing{
-    padding: 7% 15%;
+    padding: 100px;
+    text-align: center;
 }
+
+.pricing-card{
+    padding: 2% 2%;
+}
+
+
+
+
 
 
 
