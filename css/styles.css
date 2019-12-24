@@ -87,7 +87,6 @@ p{
 /*-- Testimonials */
 
 #testimonials{
-    padding: 7% 15%;
     text-align: center;
     background: #ff4c68;
 
@@ -110,7 +109,12 @@ h2{
 .pic_testimonial{
     width: 13%;
     border-radius: 100%;
-    margin: 1px 10px;
+    margin: 2px 10px;
+}
+
+.carousel-item{
+    padding: 11% 15%;
+
 }
 
 .news_logo{
@@ -121,4 +125,6 @@ h2{
 #pricing{
     padding: 7% 15%;
 }
+
+
 
