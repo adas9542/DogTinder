@@ -141,11 +141,53 @@ h2{
     padding: 2% 2%;
 }
 
+.price_btn{
+    margin-top: 9%;
+}
+
 #cta{
-    margin: 100px;
+    padding: 10% 1%;
     text-align: center;
+    background: #ff4c68;
+    color: white;
+}
+
+#cta_head{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5rem;
+    padding-bottom: 3%;
+}
+
+.download-cta{
+    margin: 2% 1% 1% 0%;
 }
 
 #footer{
     text-align: center;
+    padding: 7% 15%;
 }
+
+.copy-footer{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+
+.foot_icon{
+    padding: 2%;
+}
+
+@media  (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0); /*you don't have to rotate it back, because it rotates absolute position.  */
+    }
+
+}
+
